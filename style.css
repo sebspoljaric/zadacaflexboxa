@@ -1,0 +1,38 @@
+.flexbox-container {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.flexbox-item-1 {
+    background-color: red;
+    height: 969px;
+    width: 200px;
+}
+
+.flexbox-item-2 {
+    background-color: green;
+    height: 300px;
+    width: 1300px;
+}
+
+.flexbox-item-3 {
+    background-color: yellow;
+    height: 400px;
+    order: 2;
+    width: 1300px;
+    position: relative;
+    bottom: 400px;
+    left: 200px;
+}
+
+.flexbox-item-4 {
+    background-color: blue;
+    height: 700px;
+    width: 403px;
+    order: 1;
+}
+
+body {
+    margin: 0;
+}
